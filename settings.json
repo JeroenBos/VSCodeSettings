@@ -71,4 +71,7 @@
     ],
     "editor.autoClosingQuotes": "never",
     "python.dataScience.sendSelectionToInteractiveWindow": false,
+    "workbench.colorCustomizations": {
+        "editor.selectionHighlightBackground": "#b6eca173",
+    }
 }
