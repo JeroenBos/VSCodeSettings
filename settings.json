@@ -1,0 +1,74 @@
+{
+    "window.zoomLevel": 1,
+    "git.enableSmartCommit": true,
+    "html.format.wrapAttributes": "force-aligned",
+    "html.format.wrapLineLength": 90,
+    "explorer.confirmDelete": false,
+    "workbench.colorTheme": "Default Dark+",
+    "editor.formatOnSave": true,
+    "editor.autoClosingBrackets": "never",
+    "gitlens.advanced.messages": {
+        "suppressShowKeyBindingsNotice": true
+    },
+    "gitlens.historyExplorer.enabled": true,
+    "files.autoSave": "afterDelay",
+    "files.autoSaveDelay": 100,
+    "explorer.confirmDragAndDrop": false,
+    "terminal.integrated.copyOnSelection": true,
+    "typescript.updateImportsOnFileMove.enabled": "always",
+    "git.autofetch": true,
+    "workbench.editor.enablePreview": false,
+    "javascript.updateImportsOnFileMove.enabled": "always",
+    "explorer.autoReveal": false,
+    "editor.autoSurround": "never",
+    "workbench.settings.editor": "json",
+    "workbench.editor.closeOnFileDelete": true,
+    "emmet.showExpandedAbbreviation": "inMarkupAndStylesheetFilesOnly",
+    "update.enableWindowsBackgroundUpdates": false,
+    "update.mode": "none",
+    "workbench.list.automaticKeyboardNavigation": false,
+    "files.watcherExclude": {
+        "**/.git/objects/**": true,
+        "**/.git/subtree-cache/**": true,
+        "**/node_modules/**": true,
+        "**/__pycache__/**": true,
+        "**/.idea/**": true,
+        "**/venv/**": true
+    },
+    "python.dataScience.askForKernelRestart": false,
+    "python.dataScience.notebookFileRoot": "{$workspaceDir}",
+    "python.linting.maxNumberOfProblems": 500,
+    "python.linting.flake8Enabled": true,
+    "python.linting.pylintEnabled": false,
+    "python.linting.ignorePatterns": [
+        "**/.vscode/**",
+        "**/site-packages/**/*.py",
+        "**/venv*/**",
+        "**/Python-3.8.0/Lib/**"
+    ],
+    "python.jediEnabled": true,
+    "python.linting.pylintArgs": [
+        "--disable-all",
+        "--max-line-length=120",
+        "--variable-rgx=[a-z_][a-z0-9_]{0,30}$",
+        "--argument-rgx=[a-z_][a-z0-9_]{0,30}$",
+        "--disable=W0614,C0114,C0115,C0116", // W0614=unused-wildcard-import, C0114=missing-module-docstring, C0115=missing-class-docstring, C0116=missing-function-docstring
+        "--ignore-patterns=\"**/vscode/**, **/venv*/**, ~/Python*/**\""
+    ],
+    "python.analysis.logLevel": "Warning",
+    "python.analysis.openFilesOnly": false,
+    "python.dataScience.magicCommandsAsComments": true,
+    "git.confirmSync": false,
+    "python.linting.flake8CategorySeverity.E": "Error",
+    "python.linting.flake8CategorySeverity.F": "Information",
+    "python.linting.flake8CategorySeverity.W": "Information",
+    "python.testing.pytestArgs": [
+        "-s" // ensures print statements are shown
+    ],
+    "python.testing.unittestArgs": [
+        "-s",
+        "./tests",
+    ],
+    "editor.autoClosingQuotes": "never",
+    "python.dataScience.sendSelectionToInteractiveWindow": false,
+}
