@@ -46,7 +46,7 @@
         "**/venv*/**",
         "**/Python-3.8.0/Lib/**"
     ],
-    "python.jediEnabled": true,
+    "python.jediEnabled": true, // with true F12 seems to work more often
     "python.linting.pylintArgs": [
         "--disable-all",
         "--max-line-length=120",
