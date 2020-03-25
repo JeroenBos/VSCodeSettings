@@ -73,5 +73,9 @@
     "python.dataScience.sendSelectionToInteractiveWindow": false,
     "workbench.colorCustomizations": {
         "editor.selectionHighlightBackground": "#b6eca173",
-    }
+    },
+    "terminal.integrated.shellArgs.linux": [
+        "alias python='$HOME/git/ml-setup/venv/in/python3'"
+    ],
+    "extensions.ignoreRecommendations": false
 }
