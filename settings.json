@@ -79,5 +79,7 @@
     "terminal.integrated.shellArgs.linux": [
         // "alias python='$HOME/git/ml-setup/venv/in/python3'"
     ],
-    "extensions.ignoreRecommendations": false
+    "extensions.ignoreRecommendations": false,
+    "diffEditor.ignoreTrimWhitespace": false,
+    "debug.onTaskErrors": "showErrors"
 }
