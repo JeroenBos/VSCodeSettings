@@ -33,7 +33,7 @@
         "**/node_modules/**": true,
         "**/__pycache__/**": true,
         "**/.idea/**": true,
-        "**/venv/**": true
+        "**/venv*/**": true,
     },
     "python.dataScience.askForKernelRestart": false,
     "python.dataScience.notebookFileRoot": "{$workspaceDir}",
@@ -43,7 +43,9 @@
     "python.linting.ignorePatterns": [
         "**/.vscode/**",
         "**/site-packages/**/*.py",
-        "**/venv*/**",
+        "**/venv/**",
+        "**/venv3.7/**",
+        "**/lib/python3.7/**",
         "**/Python-3.8.0/Lib/**"
     ],
     "python.jediEnabled": true, // with true F12 seems to work more often
@@ -53,7 +55,7 @@
         "--variable-rgx=[a-z_][a-z0-9_]{0,30}$",
         "--argument-rgx=[a-z_][a-z0-9_]{0,30}$",
         "--disable=W0614,C0114,C0115,C0116", // W0614=unused-wildcard-import, C0114=missing-module-docstring, C0115=missing-class-docstring, C0116=missing-function-docstring
-        "--ignore-patterns=\"**/vscode/**, **/venv*/**, ~/Python*/**\""
+        "--ignore-patterns=\"**/vscode/**, **/venv*/**, **/venv3.7/**,~/Python*/**\""
     ],
     "python.analysis.logLevel": "Warning",
     "python.analysis.openFilesOnly": false,
