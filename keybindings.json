@@ -334,7 +334,7 @@
     {
         "key": "ctrl+F6",
         "command": "workbench.action.tasks.runTask",
-        "args": "npm_install"
+        "args": "Pre push checks"
     },
     {
         "key": "ctrl+shift+F6",
