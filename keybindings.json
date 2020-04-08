@@ -332,11 +332,6 @@
         "when": "editorTextFocus"
     },
     {
-        "key": "F6",
-        "command": "workbench.action.tasks.runTask",
-        "args": "npm_build"
-    },
-    {
         "key": "ctrl+F6",
         "command": "workbench.action.tasks.runTask",
         "args": "npm_install"
@@ -493,7 +488,7 @@
         "when": "inQuickOpen && inRecentFilesPicker"
     },
     {
-        "key": "ctrl+r",
+        "key": "f6",
         "command": "test-explorer.reload-collection"
     },
     {
