@@ -553,5 +553,25 @@
     {
         "key": "ctrl+shift+pagedown",
         "command": "-workbench.action.moveEditorRightInGroup"
+    },
+    {
+        "key": "pagedown",
+        "command": "-cursorPageDown",
+        "when": "textInputFocus"
+    },
+    {
+        "key": "shift+pagedown",
+        "command": "-cursorPageDownSelect",
+        "when": "textInputFocus"
+    },
+    {
+        "key": "pageup",
+        "command": "-cursorPageUp",
+        "when": "textInputFocus"
+    },
+    {
+        "key": "shift+pageup",
+        "command": "-cursorPageUpSelect",
+        "when": "textInputFocus"
     }
 ]
