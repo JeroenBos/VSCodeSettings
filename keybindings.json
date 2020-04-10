@@ -619,4 +619,12 @@
         "key": "alt+]",
         "command": "workbench.debug.action.toggleRepl"
     },
+    {
+        "key": "ctrl+-",
+        "command": "-workbench.action.zoomOut"
+    },
+    {
+        "key": "ctrl+numpad_subtract",
+        "command": "-workbench.action.zoomOut"
+    },
 ]
