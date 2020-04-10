@@ -246,12 +246,17 @@
         "command": "-workbench.action.terminal.toggleTerminal"
     },
     {
-        "key": "ctrl+oem_102",
+        "key": "alt+\\",
         "command": "workbench.action.terminal.focus",
         "when": "!terminalFocus"
     },
     {
         "key": "ctrl+\\",
+        "command": "workbench.action.focusActiveEditorGroup",
+        "when": "terminalFocus"
+    },
+    {
+        "key": "alt+\\",
         "command": "workbench.action.focusActiveEditorGroup",
         "when": "terminalFocus"
     },
@@ -577,5 +582,41 @@
     {
         "key": "alt+t",
         "command": "workbench.view.extension.test"
+    },
+    {
+        "key": "alt+e",
+        "command": "workbench.view.explorer"
+    },
+    {
+        "key": "alt+f",
+        "command": "workbench.action.findInFiles",
+    },
+    {
+        "key": "alt+g",
+        "command": "workbench.view.scm"
+    },
+    {
+        "key": "ctrl+shift+g",
+        "command": "-workbench.view.scm"
+    },
+    {
+        "key": "alt+d",
+        "command": "workbench.view.debug"
+    },
+    {
+        "key": "alt+p",
+        "command": "workbench.actions.view.problems"
+    },
+    {
+        "key": "alt+o",
+        "command": "workbench.action.output.toggleOutput"
+    },
+    {
+        "key": "alt+[",
+        "command": "workbench.action.output.toggleOutput"
+    },
+    {
+        "key": "alt+]",
+        "command": "workbench.debug.action.toggleRepl"
     },
 ]
