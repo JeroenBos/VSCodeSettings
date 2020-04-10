@@ -82,5 +82,7 @@
     "extensions.ignoreRecommendations": false,
     "diffEditor.ignoreTrimWhitespace": false,
     "debug.onTaskErrors": "showErrors",
-    "diffEditor.renderSideBySide": true
+    "diffEditor.renderSideBySide": true,
+    "editor.suggestSelection": "first",
+    
 }
