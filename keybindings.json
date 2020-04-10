@@ -408,6 +408,7 @@
         "command": "workbench.action.terminal.clear"
     },
     {
+        // extension identifier: alefragnani.numbered-bookmarks
         "key": "ctrl+1",
         "command": "numberedBookmarks.jumpToBookmark1"
     },
