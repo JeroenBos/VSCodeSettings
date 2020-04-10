@@ -573,5 +573,9 @@
         "key": "shift+pageup",
         "command": "-cursorPageUpSelect",
         "when": "textInputFocus"
+    {
+        "key": "alt+t",
+        "command": "workbench.view.extension.test"
+    },
     }
 ]
