@@ -33,7 +33,7 @@
         "command": "-actions.find"
     },
     {
-        "key": "ctrl+-",
+        "key": "alt+left",
         "command": "workbench.action.navigateBack"
     },
     {
@@ -41,7 +41,7 @@
         "command": "-workbench.action.navigateBack"
     },
     {
-        "key": "ctrl+shift+-",
+        "key": "alt+right",
         "command": "workbench.action.navigateForward"
     },
     {
