@@ -140,6 +140,13 @@
                 "workbench.view.extension.test",
                 "test-explorer.reload-collection",
             ]
-        }
+        },
+        {
+            "command": "test-explorer.run-all.multi",
+            "sequence": [
+                "workbench.view.extension.test",
+                "test-explorer.run-all",
+            ]
+        },
     ],
 }

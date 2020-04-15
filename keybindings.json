@@ -356,16 +356,16 @@
         "command": "-workbench.action.debug.pause",
         "when": "debugState == 'running'"
     },
-    {
-        "key": "F7",
-        "command": "workbench.action.tasks.runTask",
-        "args": "npm_test"
-    },
-    {
-        "key": "ctrl+shift+f7",
-        "command": "workbench.action.tasks.runTask",
-        "args": "npm_build_test"
-    },
+    // {  should be JS-only
+    //     "key": "F7",
+    //     "command": "workbench.action.tasks.runTask",
+    //     "args": "npm_test"
+    // },
+    // {
+    //     "key": "ctrl+shift+f7",
+    //     "command": "workbench.action.tasks.runTask",
+    //     "args": "npm_build_test"
+    // },
     {
         "key": "ctrl+f",
         "command": "-workbench.action.terminal.focusFindWidget",
@@ -659,5 +659,12 @@
     {
         "key": "f6",
         "command": "workbench.view.extension.test"
+    },
+    {
+        "key": "f7",
+        "command": "extension.multiCommand.execute",
+        "args": {
+            "command": "test-explorer.run-all.multi"
+        },
     },
 ]
