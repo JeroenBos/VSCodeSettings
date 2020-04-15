@@ -657,10 +657,6 @@
         "when": "terminalFocus"
     },
     {
-        "key": "f6",
-        "command": "workbench.view.extension.test"
-    },
-    {
         "key": "f7",
         "command": "extension.multiCommand.execute",
         "args": {
