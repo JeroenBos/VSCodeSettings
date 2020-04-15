@@ -323,8 +323,8 @@
     },
     {
         "key": "ctrl+oem_102",
-        "when": "terminalFocus",
-        "command": "workbench.action.focusActiveEditorGroup"
+        "command": "workbench.action.focusActiveEditorGroup",
+        "when": "terminalFocus"
     },
     {
         "key": "ctrl+shift+numpad_multiply",
