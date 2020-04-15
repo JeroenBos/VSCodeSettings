@@ -653,4 +653,8 @@
         "command": "-workbench.action.terminal.paste",
         "when": "terminalFocus"
     },
+    {
+        "key": "f6",
+        "command": "workbench.view.extension.test"
+    },
 ]
