@@ -495,7 +495,10 @@
     },
     {
         "key": "f6",
-        "command": "test-explorer.reload-collection"
+        "command": "extension.multiCommand.execute",
+        "args": {
+            "command": "test-explorer.reload-collection.multi"
+        },
     },
     {
         "key": "ctrl+f4",

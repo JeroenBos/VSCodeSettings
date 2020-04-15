@@ -131,5 +131,15 @@
         "workbench.action.output.toggleOutput",
         "workbench.action.output.toggleOutput",
         "workbench.debug.action.toggleRepl",
-    ]
+    ],
+    "multiCommand.commands": [
+        // extension id = ryuta46.multi-command
+        {
+            "command": "test-explorer.reload-collection.multi",
+            "sequence": [
+                "workbench.view.extension.test",
+                "test-explorer.reload-collection",
+            ]
+        }
+    ],
 }
