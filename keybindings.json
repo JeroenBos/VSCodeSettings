@@ -653,6 +653,36 @@
         "command": "-workbench.action.terminal.paste",
         "when": "terminalFocus"
     },
+    // {
+    //     "key": "f3",
+    //     "command": "search.action.focusNextSearchResult",
+    //     "when": "activePanel == 'workbench.view.search'"
+    // },
+    // {
+    //     "key": "f4",
+    //     "command": "-search.action.focusNextSearchResult",
+    //     "when": "hasSearchResult || inSearchEditor"
+    // },
+    // {
+    //     "key": "shift+f3",
+    //     "command": "search.action.focusPreviousSearchResult",
+    //     "when": "activePanel == 'workbench.view.search' && (hasSearchResult || inSearchEditor)"
+    // },
+    // {
+    //     "key": "shift+f4",
+    //     "command": "-search.action.focusPreviousSearchResult",
+    //     "when": "hasSearchResult || inSearchEditor"
+    // },
+    // {
+    //     "key": "f3",
+    //     "command": "editor.action.nextMatchFindAction",
+    //     "when": "editorFocus && activePanel != 'workbench.view.search'"
+    // },
+    // {
+    //     "key": "f3",
+    //     "command": "-editor.action.nextMatchFindAction",
+    //     "when": "editorFocus"
+    // },
     {
         "key": "f6",
         "command": "workbench.view.extension.test"
