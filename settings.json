@@ -4,7 +4,7 @@
     "html.format.wrapAttributes": "force-aligned",
     "html.format.wrapLineLength": 90,
     "explorer.confirmDelete": false,
-    "workbench.colorTheme": "Default Dark+",
+    "workbench.colorTheme": "Visual Studio Light",
     "editor.formatOnSave": true,
     "editor.autoClosingBrackets": "never",
     "gitlens.advanced.messages": {
@@ -143,7 +143,36 @@
         "workbench.debug.action.toggleRepl",
         "editor.debug.action.toggleBreakpoint",
         "extension.multiCommand.execute",
+        "workbench.action.debug.restart",
+        "workbench.action.debug.stop",
+        "workbench.action.debug.start",
+        "editor.debug.action.runToCursor",
+        "workbench.action.debug.stepOver",
+        "extension.node-debug.startWithStopOnEntry",
+        "workbench.action.debug.stepInto",
+        "workbench.action.debug.stepOut",
+        "workbench.action.toggleFullScreen",
+        "editor.action.revealDefinition",
+        "editor.action.goToImplementation",
+        "editor.action.goToReferences",
+        "references-view.find",
+        "editor.action.peekImplementation",
+        "editor.gotoNextSymbolFromResult",
+        "goToNextReference",
+        "goToPreviousReference",
+        "editor.action.nextMatchFindAction",
+        "editor.action.nextSelectionMatchFindAction",
+        "editor.action.previousMatchFindAction",
+        "editor.action.previousSelectionMatchFindAction",
+        "editor.action.dirtydiff.next",
+        "editor.action.dirtydiff.previous",
+        "editor.action.marker.next",
+        "editor.action.marker.nextInFiles",
+        "editor.action.marker.prev",
+        "editor.action.marker.prevInFiles"
+        
     ],
+
     "multiCommand.commands": [
         // extension id = ryuta46.multi-command
         {
