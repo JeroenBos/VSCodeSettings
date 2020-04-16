@@ -142,6 +142,7 @@
         "workbench.action.output.toggleOutput",
         "workbench.debug.action.toggleRepl",
         "editor.debug.action.toggleBreakpoint",
+        "extension.multiCommand.execute",
     ],
     "multiCommand.commands": [
         // extension id = ryuta46.multi-command
