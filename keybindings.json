@@ -214,7 +214,10 @@
     },
     {
         "key": "f12",
-        "command": "git.openFile",
+        "command": "extension.multiCommand.execute",
+        "args": {
+            "command": "git.openFile.multi",
+        },
         "when": "isInDiffEditor"
     },
     {

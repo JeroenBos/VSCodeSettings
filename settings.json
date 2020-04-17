@@ -207,5 +207,13 @@
                 "workbench.action.focusActiveEditorGroup",
             ]
         },
+        {
+            "command": "git.openFile.multi",
+            "sequence": [
+                "git.openFile",
+                "git.openChange",
+                "workbench.action.closeActiveEditor",
+            ]
+        },
     ],
 }
