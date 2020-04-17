@@ -189,5 +189,12 @@
                 "test-explorer.run-all",
             ]
         },
+        { 
+            "command": "editor.debug.action.toggleBreakpoint.multi",
+            "sequence": [
+                "workbench.action.focusActiveEditorGroup",
+                "editor.debug.action.toggleBreakpoint",
+            ]
+        },
     ],
 }

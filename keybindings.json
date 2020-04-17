@@ -683,4 +683,12 @@
         "command": "-workbench.action.terminal.findPrevious",
         "when": "terminalFocus"
     },
+    {
+        "key": "f9",
+        "command": "extension.multiCommand.execute",
+        "when": "!editorFocus",
+        "args": {
+            "command": "editor.debug.action.toggleBreakpoint.multi"
+        },
+    },
 ]
