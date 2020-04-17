@@ -169,8 +169,9 @@
         "editor.action.marker.next",
         "editor.action.marker.nextInFiles",
         "editor.action.marker.prev",
-        "editor.action.marker.prevInFiles"
-        
+        "editor.action.marker.prevInFiles",
+        "undo",
+        "redo",
     ],
 
     "multiCommand.commands": [

@@ -691,4 +691,24 @@
             "command": "editor.debug.action.toggleBreakpoint.multi"
         },
     },
+    {
+        "key": "ctrl+z",
+        "command": "undo",
+        "when": "!editorReadonly"
+    },
+    {
+        "key": "ctrl+z",
+        "command": "-undo",
+        "when": "textInputFocus && !editorReadonly"
+    },
+    {
+        "key": "ctrl+y",
+        "command": "redo",
+        "when": "!editorReadonly"
+    },
+    {
+        "key": "ctrl+y",
+        "command": "-redo",
+        "when": "textInputFocus && !editorReadonly"
+    },
 ]
