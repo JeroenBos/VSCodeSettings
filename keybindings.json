@@ -272,7 +272,10 @@
     },
     {
         "key": "F5",
-        "command": "workbench.action.debug.start",
+        "command": "extension.multiCommand.execute",
+        "args": {
+            "command": "workbench.action.debug.start.multi",
+        },
         "when": "!inDebugMode"
     },
     {

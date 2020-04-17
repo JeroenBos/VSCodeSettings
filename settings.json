@@ -4,7 +4,7 @@
     "html.format.wrapAttributes": "force-aligned",
     "html.format.wrapLineLength": 90,
     "explorer.confirmDelete": false,
-    "workbench.colorTheme": "Visual Studio Light",
+    "workbench.colorTheme": "Default Dark+",
     "editor.formatOnSave": true,
     "editor.autoClosingBrackets": "never",
     "gitlens.advanced.messages": {
@@ -195,6 +195,15 @@
             "sequence": [
                 "workbench.action.focusActiveEditorGroup",
                 "editor.debug.action.toggleBreakpoint",
+            ]
+        },
+        { 
+            "command": "workbench.action.debug.start.multi",
+            "sequence": [
+                "workbench.action.terminal.moveToLineEnd",
+                "workbench.action.terminal.deleteToLineStart",
+                "workbench.action.debug.start",
+                "workbench.action.focusActiveEditorGroup",
             ]
         },
     ],
