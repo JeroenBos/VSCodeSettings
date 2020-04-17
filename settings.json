@@ -187,6 +187,7 @@
             "command": "test-explorer.run-all.multi",
             "sequence": [
                 "workbench.view.extension.test",
+                "test-explorer.reload-collection",
                 "test-explorer.run-all",
             ]
         },
