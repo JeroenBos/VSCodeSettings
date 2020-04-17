@@ -711,4 +711,24 @@
         "command": "-redo",
         "when": "textInputFocus && !editorReadonly"
     },
+    {
+        "key": "shift+home delete",
+        "command": "workbench.action.terminal.deleteToLineStart",
+        "when": "terminalFocus"
+    },
+    {
+        "key": "shift+home backspace",
+        "command": "workbench.action.terminal.deleteToLineStart",
+        "when": "terminalFocus"
+    },
+    {
+        "key": "home",
+        "command": "workbench.action.terminal.moveToLineStart",
+        "when": "terminalFocus"
+    },
+    {
+        "key": "end",
+        "command": "workbench.action.terminal.moveToLineEnd",
+        "when": "terminalFocus"
+    }
 ]
