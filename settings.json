@@ -36,14 +36,15 @@
         "**/venv*/**": true,
     },
     "files.exclude": {
-        "**/.git": true,
-        "**/.svn": true,
-        "**/.hg": true,
-        "**/CVS": true,
-        "**/.DS_Store": true,
         "**/__pycache__": true,
+        "**/.DS_Store": true,
+        "**/.git": true,
+        "**/.hg": true,
         "**/.pytest_cache": true,
+        "**/.svn": true,
         "**/.vscode/numbered-bookmarks.json": true,
+        "**/CVS": true,
+        "**/logs/**": true
     },
     "numberedBookmarks.navigateThroughAllFiles": "replace",
     "numberedBookmarks.gutterIconFillColor": "#06961e",
@@ -216,4 +217,7 @@
             ]
         },
     ],
+    "search.exclude": {
+        "**/logs/**": true
+    },
 }
