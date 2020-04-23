@@ -44,7 +44,8 @@
         "**/.svn": true,
         "**/.vscode/numbered-bookmarks.json": true,
         "**/CVS": true,
-        "**/logs/**": true
+        "**/logs/**": true,
+        "**/__init__.py": true,
     },
     "numberedBookmarks.navigateThroughAllFiles": "replace",
     "numberedBookmarks.gutterIconFillColor": "#06961e",
