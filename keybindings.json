@@ -736,5 +736,9 @@
         "key": "end",
         "command": "workbench.action.terminal.moveToLineEnd",
         "when": "terminalFocus"
+    },
+    {
+        "key": "shift+alt+n",
+        "command": "explorer.newFolder"
     }
 ]
