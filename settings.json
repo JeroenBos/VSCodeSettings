@@ -86,6 +86,7 @@
     "python.testing.pytestArgs": [
         "-s" // ensures print statements are shown
     ],
+    "python.testing.pytestPath": "pytest",
     "python.testing.unittestArgs": [
         "-s",
         "./tests",
@@ -217,8 +218,8 @@
             "command": "git.openFile.multi",
             "sequence": [
                 "git.openFile",
-                "git.openChange",
-                "workbench.action.closeActiveEditor",
+                // "git.openChange",
+                // "workbench.action.closeActiveEditor",
             ]
         },
     ],
