@@ -46,6 +46,8 @@
         "**/CVS": true,
         "**/logs/**": true,
         "**/__init__.py": true,
+        "**/~git/**": true,
+        "venv": true,
     },
     "numberedBookmarks.navigateThroughAllFiles": "replace",
     "numberedBookmarks.gutterIconFillColor": "#06961e",
@@ -61,7 +63,9 @@
         "**/venv/**",
         "**/venv3.7/**",
         "**/lib/python3.7/**",
-        "**/Python-3.8.0/Lib/**"
+        "**/Python-3.8.0/Lib/**",
+        "**/Python-3.8/Lib/**",
+        "**/lib/python3.8/**",
     ],
     "python.jediEnabled": false, // with true F12 seems to work more often. but importing alt+enter with true doesn't seem to work
     "python.linting.pylintArgs": [
