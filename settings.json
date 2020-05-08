@@ -12,6 +12,7 @@
     },
     "gitlens.historyExplorer.enabled": true,
     "files.autoSave": "afterDelay",
+    "python.envFile": "${workspaceFolder}/.vscode/.env",
     "files.autoSaveDelay": 100,
     "explorer.confirmDragAndDrop": false,
     "terminal.integrated.copyOnSelection": true,
