@@ -740,5 +740,44 @@
     {
         "key": "shift+alt+n",
         "command": "explorer.newFolder"
-    }
+    },
+    {
+        "key": "ctrl+f7",
+        "command": "extension.multiCommand.execute",
+        "args": {
+            "command": "debug_test.multi",
+        },
+        "when": "!inDebugMode",
+    },
+    {
+        "key": "escape",
+        "when": "explorerViewletFocus || searchViewletFocus",
+        "command": "workbench.action.focusActiveEditorGroup",
+    },
+    {
+        "key": "escape",
+        "when": "sideBarFocus && activeViewlet == 'workbench.view.scm'",
+        "command": "workbench.action.focusActiveEditorGroup",
+    },
+    {
+        "key": "escape",
+        "when": "sideBarFocus && activeViewlet == 'workbench.view.debug'",
+        "command": "workbench.action.focusActiveEditorGroup",
+    },
+    {
+        "key": "escape",
+        "when": "sideBarFocus && activeViewlet == 'workbench.view.extensions'",
+        "command": "workbench.action.focusActiveEditorGroup",
+    },
+    {
+        "key": "escape",
+        "when": "sideBarFocus && activeViewlet == 'workbench.view.test'",
+        "command": "workbench.action.focusActiveEditorGroup",
+    },
+    {
+        "key": "escape",
+        // explicitly omitted !panelFocus
+        "when": "!sideBarFocus && !inReferenceSearchEditor && !inQuickOpen && !inSnippetMode && !inputFocus && !textInputFocus && !editorFocus && !editorTextFocus",
+        "command": "workbench.action.focusActiveEditorGroup",
+    },
 ]
