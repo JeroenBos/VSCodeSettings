@@ -189,7 +189,6 @@
         "redo",
         "editor.action.formatDocument.multi",
     ],
-
     "multiCommand.commands": [
         // extension id = ryuta46.multi-command
         {
@@ -207,14 +206,14 @@
                 "test-explorer.run-all",
             ]
         },
-        { 
+        {
             "command": "editor.debug.action.toggleBreakpoint.multi",
             "sequence": [
                 "workbench.action.focusActiveEditorGroup",
                 "editor.debug.action.toggleBreakpoint",
             ]
         },
-        { 
+        {
             "command": "workbench.action.debug.start.multi",
             "sequence": [
                 "workbench.action.terminal.moveToLineEnd",
@@ -239,6 +238,7 @@
                 "editor.action.formatDocument",
             ]
         },
+        
     ],
     "search.exclude": {
         "**/logs/**": true
