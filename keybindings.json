@@ -635,7 +635,7 @@
     },
     {
         "key": "alt+]",
-        "command": "workbench.debug.action.toggleRepl"
+        "command": "workbench.debug.action.focusRepl"
     },
     {
         "key": "ctrl+-",

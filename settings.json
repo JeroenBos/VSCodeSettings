@@ -220,6 +220,7 @@
                 "workbench.action.terminal.moveToLineEnd",
                 "workbench.action.terminal.deleteToLineStart",
                 "workbench.action.debug.start",
+                "workbench.debug.action.focusRepl",
                 "workbench.action.focusActiveEditorGroup",
             ]
         },
