@@ -794,6 +794,14 @@
         "command": "workbench.action.debug.selectandstart"
     },
     {
+        "key": "ctrl+e ctrl+d",
+        "when": "terminalFocus || panelFocus",
+        "command": "extension.multiCommand.execute",
+        "args": {
+            "command": "editor.action.formatDocument.multi"
+        },
+    }, 
+    {
         "key": "ctrl+f7",
         "when": "!inDebugMode",
         "command": "test-explorer.redebug",

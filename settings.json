@@ -187,6 +187,7 @@
         "editor.action.marker.prevInFiles",
         "undo",
         "redo",
+        "editor.action.formatDocument.multi",
     ],
 
     "multiCommand.commands": [
@@ -228,6 +229,13 @@
                 "git.openFile",
                 // "git.openChange",
                 // "workbench.action.closeActiveEditor",
+            ]
+        },
+        {
+            "command": "editor.action.formatDocument.multi",
+            "sequence": [
+                "workbench.action.focusActiveEditorGroup",
+                "editor.action.formatDocument",
             ]
         },
     ],
