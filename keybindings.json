@@ -282,6 +282,14 @@
         "when": "!inDebugMode"
     },
     {
+        "key": "ctrl+shift+F5",
+        "command": "extension.multiCommand.execute",
+        "args": {
+            "command": "workbench.action.debug.start.multi",
+        },
+        "when": "!inDebugMode"
+    },
+    {
         "key": "ctrl+f10",
         "command": "editor.debug.action.runToCursor"
     },
@@ -741,14 +749,14 @@
         "key": "shift+alt+n",
         "command": "explorer.newFolder"
     },
-    {
-        "key": "ctrl+f7",
-        "command": "extension.multiCommand.execute",
-        "args": {
-            "command": "debug_test.multi",
-        },
-        "when": "!inDebugMode",
-    },
+    // {
+    //     "key": "ctrl+f7",
+    //     "command": "extension.multiCommand.execute",
+    //     "args": {
+    //         "command": "debug_test.multi",
+    //     },
+    //     "when": "!inDebugMode",
+    // },
     {
         "key": "escape",
         "when": "explorerViewletFocus || searchViewletFocus",
@@ -779,5 +787,10 @@
         // explicitly omitted !panelFocus
         "when": "!sideBarFocus && !inReferenceSearchEditor && !inQuickOpen && !inSnippetMode && !inputFocus && !textInputFocus && !editorFocus && !editorTextFocus",
         "command": "workbench.action.focusActiveEditorGroup",
+    },
+    {
+        "key": "ctrl+f7",
+        "when": "!inDebugMode",
+        "command": "test-explorer.redebug",
     },
 ]
