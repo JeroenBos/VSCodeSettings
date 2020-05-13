@@ -242,6 +242,7 @@
         
     ],
     "search.exclude": {
-        "**/logs/**": true
+        "**/logs/**": true,
+        "metadata.json": true,
     },
 }
