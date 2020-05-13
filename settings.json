@@ -103,6 +103,7 @@
         "editorBracketMatch.background": "#d7a4ee90",
         "editor.wordHighlightBackground": "#c9f1b950",
         "editor.lineHighlightBackground": "#7ffbf120",
+        "statusBar.debuggingBackground": "#e4e1428f",
     },
     "terminal.integrated.shellArgs.linux": [
         // "alias python='$HOME/git/ml-setup/venv/in/python3'"
@@ -216,8 +217,8 @@
         {
             "command": "workbench.action.debug.start.multi",
             "sequence": [
-                "workbench.action.terminal.moveToLineEnd",
-                "workbench.action.terminal.deleteToLineStart",
+                // { "command": "workbench.action.terminal.sendSequence", "args": "\u0003" }, // move to end line
+                // { "command": "workbench.action.terminal.sendSequence", "args": "\u0015" }, // delete to start line
                 "workbench.action.debug.start",
                 "workbench.debug.action.focusRepl",
                 "workbench.action.focusActiveEditorGroup",

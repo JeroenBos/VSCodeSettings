@@ -727,23 +727,35 @@
     },
     {
         "key": "shift+home delete",
-        "command": "workbench.action.terminal.deleteToLineStart",
-        "when": "terminalFocus"
+        "command": "workbench.action.terminal.sendSequence",
+        "when": "terminalFocus",
+        "args": {
+            "text": "\u0015" // NAK = Negative Acknowledge
+        }
     },
     {
         "key": "shift+home backspace",
-        "command": "workbench.action.terminal.deleteToLineStart",
-        "when": "terminalFocus"
+        "command": "workbench.action.terminal.sendSequence",
+        "when": "terminalFocus",
+        "args": {
+            "text": "\u0015" // NAK = Negative Acknowledge
+        }
     },
     {
         "key": "home",
-        "command": "workbench.action.terminal.moveToLineStart",
-        "when": "terminalFocus"
+        "command": "workbench.action.terminal.sendSequence",
+        "when": "terminalFocus",
+        "args": {
+            "text": "\u0002" // STX = Start of Text
+        }
     },
     {
         "key": "end",
-        "command": "workbench.action.terminal.moveToLineEnd",
-        "when": "terminalFocus"
+        "command": "workbench.action.terminal.sendSequence",
+        "when": "terminalFocus",
+        "args": {
+            "text": "\u0003" // ETX = End of Text
+        }
     },
     {
         "key": "shift+alt+n",
@@ -800,7 +812,7 @@
         "args": {
             "command": "editor.action.formatDocument.multi"
         },
-    }, 
+    },
     {
         "key": "ctrl+f7",
         "when": "!inDebugMode",
