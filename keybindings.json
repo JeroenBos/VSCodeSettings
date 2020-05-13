@@ -742,22 +742,6 @@
         }
     },
     {
-        "key": "home",
-        "command": "workbench.action.terminal.sendSequence",
-        "when": "terminalFocus",
-        "args": {
-            "text": "\u0002" // STX = Start of Text
-        }
-    },
-    {
-        "key": "end",
-        "command": "workbench.action.terminal.sendSequence",
-        "when": "terminalFocus",
-        "args": {
-            "text": "\u0003" // ETX = End of Text
-        }
-    },
-    {
         "key": "shift+alt+n",
         "command": "explorer.newFolder"
     },
