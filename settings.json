@@ -189,6 +189,7 @@
         "undo",
         "redo",
         "editor.action.formatDocument.multi",
+        "workbench.action.debug.selectandstart",
     ],
     "multiCommand.commands": [
         // extension id = ryuta46.multi-command
