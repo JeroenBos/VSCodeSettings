@@ -105,6 +105,7 @@
         "editor.wordHighlightBackground": "#c9f1b950",
         "editor.lineHighlightBackground": "#7ffbf120",
         "statusBar.debuggingBackground": "#e4e1428f",
+        "debugToolBar.border": "#e4e142DD",
         "editor.wordHighlightStrongBackground": "#e4e1428f",  // Strong means on assignment/declaration
     },
     "terminal.integrated.shellArgs.linux": [
