@@ -248,5 +248,6 @@
     "search.exclude": {
         "**/logs/**": true,
         "metadata.json": true,
+        "**/.idea/**": true,
     },
 }
