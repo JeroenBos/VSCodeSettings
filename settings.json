@@ -193,6 +193,7 @@
         "redo",
         "editor.action.formatDocument.multi",
         "workbench.action.debug.selectandstart",
+        "workbench.action.files.newUntitledFile",
     ],
     "multiCommand.commands": [
         // extension id = ryuta46.multi-command
