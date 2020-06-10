@@ -803,6 +803,16 @@
         "command": "test-explorer.redebug",
     },
     {
+        "key": "ctrl+k ctrl+2",
+        "command": "editor.foldLevel2",
+        "when": "foldingEnabled"
+    },
+    {
+        "key": "ctrl+k ctrl+2",
+        "command": "-editor.foldLevel2",
+        "when": "editorTextFocus && foldingEnabled"
+    },
+    {
         "key": "ctrl+numpad_subtract",
         "command": "workbench.action.zoomOut"
     },
