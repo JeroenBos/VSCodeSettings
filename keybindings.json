@@ -802,4 +802,8 @@
         "when": "!inDebugMode",
         "command": "test-explorer.redebug",
     },
+    {
+        "key": "ctrl+numpad_subtract",
+        "command": "workbench.action.zoomOut"
+    },
 ]
