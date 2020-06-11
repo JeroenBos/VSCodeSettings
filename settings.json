@@ -31,6 +31,7 @@
     "files.watcherExclude": {
         "**/.git/objects/**": true,
         "**/.git/subtree-cache/**": true,
+        "**/.git/CI/**": true,
         "**/node_modules/**": true,
         "**/__pycache__/**": true,
         "**/.idea/**": true,
@@ -259,5 +260,6 @@
         "**/obj/**": true,
         "**/bin/**": true,
         "**/wwwroot/**": true,
+        "**/.git/CI/**": true,
     },
 }
