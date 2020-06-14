@@ -373,12 +373,14 @@
     // {  should be JS-only
     //     "key": "F7",
     //     "command": "workbench.action.tasks.runTask",
-    //     "args": "npm_test"
+    //     "args": "npm_test",
+    //     "when": "editorLangId == typescript",
     // },
     // {
     //     "key": "ctrl+shift+f7",
     //     "command": "workbench.action.tasks.runTask",
-    //     "args": "npm_build_test"
+    //     "args": "npm_build_test",
+    //     "when": "editorLangId == typescript",
     // },
     {
         "key": "ctrl+f",
@@ -676,6 +678,15 @@
         "args": {
             "command": "test-explorer.run-all.multi"
         },
+        "when": "editorLangId == python",
+    },
+    {
+        "key": "f7",
+        "command": "extension.multiCommand.execute",
+        "args": {
+            "command": "test-explorer.runAllTests.multi"
+        },
+        "when": "editorLangId == csharp || resourceExtname == .cs || resourceExtname == .razor || resourceExtname == .csproj",
     },
     {
         "key": "shift+f3",

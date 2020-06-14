@@ -219,6 +219,13 @@
             ]
         },
         {
+            "command": "test-explorer.runAllTests.multi",
+            "sequence": [
+                "dotnet-test-explorer.openPanel",
+                "dotnet-test-explorer.runAllTests",
+            ]
+        },
+        {
             "command": "editor.debug.action.toggleBreakpoint.multi",
             "sequence": [
                 "workbench.action.focusActiveEditorGroup",
