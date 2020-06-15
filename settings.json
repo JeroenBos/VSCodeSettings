@@ -52,7 +52,6 @@
         "**/__init__.py": true,
         "**/~git/**": true,
         "venv": true,
-        "**/wwwroot/**": true,
         "**/obj/**": true,
         "**/bin/**": true,
     },
