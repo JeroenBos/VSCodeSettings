@@ -54,6 +54,7 @@
         "venv": true,
         "**/obj/**": true,
         "**/bin/**": true,
+        "wwwroot/js": true,
     },
     "numberedBookmarks.navigateThroughAllFiles": "replace",
     "numberedBookmarks.gutterIconFillColor": "#06961e",
