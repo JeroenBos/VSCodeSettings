@@ -270,4 +270,6 @@
         "**/wwwroot/**": true,
         "**/.git/CI/**": true,
     },
+    "python.languageServer": "Microsoft",
+    "csharp.semanticHighlighting.enabled": true,
 }
