@@ -101,6 +101,7 @@ if [[ "$MODE" == "get" ]]; then
 elif [[ "$MODE" == "set" ]] ; then
     expiration_timestamp=$(($current_time + $EXPIRATION_DURATION))
     line=$OWNER$SEP$expiration_timestamp
+    echo "$line" >> $FILE
 elif [[ "$MODE" == "unset" ]] ; then
     if [[ "$OWNER" == "*" ]] ; then 
         rm $FILE
