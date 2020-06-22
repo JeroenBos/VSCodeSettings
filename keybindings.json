@@ -682,10 +682,7 @@
     },
     {
         "key": "f7",
-        "command": "extension.multiCommand.execute",
-        "args": {
-            "command": "test-explorer.runAllTests.multi"
-        },
+        "command": "dotnet-test-explorer.runAllTests",
         "when": "editorLangId == csharp || resourceExtname == .cs || resourceExtname == .razor || resourceExtname == .csproj",
     },
     {
@@ -840,4 +837,9 @@
         "command": "-workbench.action.terminal.split",
         "when": "terminalFocus"
     },
+    {
+        "key": "alt+r alt+a",
+        "command": "-dotnet-test-explorer.runAllTests"
+    },
+    
 ]
