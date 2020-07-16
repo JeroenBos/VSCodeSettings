@@ -14,6 +14,7 @@
     "files.autoSave": "afterDelay",
     "python.envFile": "${workspaceFolder}/.vscode/.env",
     "files.autoSaveDelay": 100,
+    "editor.hover.delay": 500,
     "explorer.confirmDragAndDrop": false,
     "terminal.integrated.copyOnSelection": true,
     "typescript.updateImportsOnFileMove.enabled": "always",
