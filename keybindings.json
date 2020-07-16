@@ -841,5 +841,24 @@
         "key": "alt+r alt+a",
         "command": "-dotnet-test-explorer.runAllTests"
     },
-    
+    {
+        "key": "ctrl+alt+u",
+        "command": "editor.action.transformToUppercase"
+    },
+    {
+        "key": "ctrl+alt+l",
+        "command": "editor.action.transformToLowercase"
+    },
+    {
+        "key": "ctrl+b",
+        "command": "workbench.action.togglePanel"
+    },
+    {
+        "key": "ctrl+j",
+        "command": "-workbench.action.togglePanel"
+    },
+    {
+        "key": "ctrl+b",
+        "command": "-workbench.action.toggleSidebarVisibility"
+    },
 ]
