@@ -1,5 +1,6 @@
 {
     "window.zoomLevel": 1,
+    "explorer.openEditors.visible": 0,
     "git.enableSmartCommit": true,
     "html.format.wrapAttributes": "force-aligned",
     "html.format.wrapLineLength": 90,
