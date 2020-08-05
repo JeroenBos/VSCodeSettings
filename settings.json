@@ -281,5 +281,11 @@
         "**/.git/CI/**": true,
     },
     "python.languageServer": "Microsoft",
-    "csharp.semanticHighlighting.enabled": true,
+    // "csharp.semanticHighlighting.enabled": true,
+    // "dotnet-test-explorer.addProblems": false,
+    "omnisharp.maxProjectResults": 1000,
+    "omnisharp.useGlobalMono": "never",
+    "omnisharp.loggingLevel": "information",
+    "dotnet-test-explorer.autoWatch": true,
+    "dotnet-test-explorer.testArguments": "--no-build",
 }
