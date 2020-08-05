@@ -203,6 +203,7 @@
         "workbench.action.files.newUntitledFile",
         "workbench.debug.action.focusRepl",
         "workbench.action.output.toggleOutput",
+        "workbench.action.gotoLine",
     ],
     "multiCommand.commands": [
         // extension id = ryuta46.multi-command
