@@ -288,4 +288,5 @@
     "omnisharp.loggingLevel": "information",
     "dotnet-test-explorer.autoWatch": true,
     "dotnet-test-explorer.testArguments": "--no-build",
+    "python.showStartPage": false,
 }
