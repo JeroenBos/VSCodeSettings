@@ -116,6 +116,13 @@
         "debugToolBar.border": "#e4e142DD",
         "editor.wordHighlightStrongBackground": "#e4e1428f",  // Strong means on assignment/declaration
     },
+    "editor.semanticTokenColorCustomizations": {
+        "[Default Dark+]": {
+            "rules": {
+                "struct": "#4EC9A0"
+            }
+        },
+    },
     "terminal.integrated.shellArgs.linux": [
         // "alias python='$HOME/git/ml-setup/venv/in/python3'"
     ],
