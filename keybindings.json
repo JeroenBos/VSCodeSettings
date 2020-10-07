@@ -254,16 +254,6 @@
         "when": "!terminalFocus"
     },
     {
-        "key": "ctrl+\\",
-        "command": "workbench.action.focusActiveEditorGroup",
-        "when": "terminalFocus"
-    },
-    {
-        "key": "alt+\\",
-        "command": "workbench.action.focusActiveEditorGroup",
-        "when": "terminalFocus"
-    },
-    {
         "key": "alt+a",
         "command": "editor.action.replaceAll",
         "when": "editorFocus && findWidgetVisible"
@@ -860,5 +850,10 @@
     {
         "key": "ctrl+b",
         "command": "-workbench.action.toggleSidebarVisibility"
+    },
+    {
+        "key": "escape",
+        "command": "workbench.action.focusActiveEditorGroup",
+        "when": "inDebugRepl && textInputFocus"
     },
 ]
