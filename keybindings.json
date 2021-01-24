@@ -829,6 +829,10 @@
         "command": "-workbench.action.toggleSidebarVisibility"
     },
     {
+        "key": "ctrl+shift+b",
+        "command": "workbench.action.toggleSidebarVisibility"
+    },
+    {
         "key": "escape",
         "command": "workbench.action.focusActiveEditorGroup",
         "when": "inDebugRepl && textInputFocus"
@@ -862,5 +866,9 @@
         "key": "ctrl+shift+f9",
         "command": "-compile.ahk",
         "when": "editorLangId == 'ahk'"
+    },
+    {
+        "key": "ctrl+shift+b",
+        "command": "-workbench.action.tasks.build"
     }
 ]
