@@ -832,5 +832,35 @@
         "key": "escape",
         "command": "workbench.action.focusActiveEditorGroup",
         "when": "inDebugRepl && textInputFocus"
+    },
+    {
+        "key": "ctrl+f9",
+        "command": "-run.ahk",
+        "when": "editorLangId == 'ahk'"
+    },
+    {
+        "key": "f8",
+        "command": "-run.selection.ahk",
+        "when": "editorLangId == 'ahk'"
+    },
+    {
+        "key": "f5",
+        "command": "debug.ahk",
+        "when": "editorLangId == 'ahk'"
+    },
+    {
+        "key": "f9",
+        "command": "-debug.ahk",
+        "when": "editorLangId == 'ahk'"
+    },
+    {
+        "key": "f6",
+        "command": "compile.ahk",
+        "when": "editorLangId == 'ahk'"
+    },
+    {
+        "key": "ctrl+shift+f9",
+        "command": "-compile.ahk",
+        "when": "editorLangId == 'ahk'"
     }
 ]
