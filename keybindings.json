@@ -437,11 +437,6 @@
         "command": "numberedBookmarks.jumpToBookmark9"
     },
     {
-        "key": "escape",
-        "command": "workbench.action.focusActiveEditorGroup",
-        "when": "inputFocus && terminalFocus"
-    },
-    {
         "key": "ctrl+f4",
         "command": "-workbench.action.closeWindow",
         "when": "!editorIsOpen"
@@ -731,33 +726,43 @@
     },
     {
         "key": "escape",
-        "when": "explorerViewletFocus || searchViewletFocus",
-        "command": "workbench.action.focusActiveEditorGroup"
+        "command": "workbench.action.focusActiveEditorGroup",
+        "when": "inputFocus && terminalFocus"
     },
     {
         "key": "escape",
-        "when": "sideBarFocus && activeViewlet == 'workbench.view.scm'",
-        "command": "workbench.action.focusActiveEditorGroup"
+        "command": "workbench.action.focusActiveEditorGroup",
+        "when": "explorerViewletFocus || searchViewletFocus"
     },
     {
         "key": "escape",
-        "when": "sideBarFocus && activeViewlet == 'workbench.view.debug'",
-        "command": "workbench.action.focusActiveEditorGroup"
+        "command": "workbench.action.focusActiveEditorGroup",
+        "when": "sideBarFocus && activeViewlet == 'workbench.view.scm'"
     },
     {
         "key": "escape",
-        "when": "sideBarFocus && activeViewlet == 'workbench.view.extensions'",
-        "command": "workbench.action.focusActiveEditorGroup"
+        "command": "workbench.action.focusActiveEditorGroup",
+        "when": "sideBarFocus && activeViewlet == 'workbench.view.debug'"
     },
     {
         "key": "escape",
-        "when": "sideBarFocus && activeViewlet == 'workbench.view.test'",
-        "command": "workbench.action.focusActiveEditorGroup"
+        "command": "workbench.action.focusActiveEditorGroup",
+        "when": "sideBarFocus && activeViewlet == 'workbench.view.extensions'"
     },
     {
         "key": "escape",
-        "when": "!sideBarFocus && !inReferenceSearchEditor && !inQuickOpen && !inSnippetMode && !inputFocus && !textInputFocus && !editorFocus && !editorTextFocus",
-        "command": "workbench.action.focusActiveEditorGroup"
+        "command": "workbench.action.focusActiveEditorGroup",
+        "when": "sideBarFocus && activeViewlet == 'workbench.view.test'"
+    },
+    {
+        "key": "escape",
+        "command": "workbench.action.focusActiveEditorGroup",
+        "when": "!sideBarFocus && !inReferenceSearchEditor && !inQuickOpen && !inSnippetMode && !inputFocus && !textInputFocus && !editorFocus && !editorTextFocus"
+    },
+    {
+        "key": "escape",
+        "command": "workbench.action.focusActiveEditorGroup",
+        "when": "inDebugRepl && textInputFocus && !suggestWidgetVisible"
     },
     {
         "key": "ctrl+alt+shift+f5",
@@ -831,11 +836,6 @@
     {
         "key": "ctrl+shift+b",
         "command": "workbench.action.toggleSidebarVisibility"
-    },
-    {
-        "key": "escape",
-        "command": "workbench.action.focusActiveEditorGroup",
-        "when": "inDebugRepl && textInputFocus"
     },
     {
         "key": "ctrl+f9",
