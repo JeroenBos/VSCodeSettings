@@ -870,5 +870,9 @@
     {
         "key": "ctrl+shift+b",
         "command": "-workbench.action.tasks.build"
+    },
+    {
+        "key": "ctrl+alt+b",
+        "command": "workbench.action.toggleMaximizedPanel"
     }
 ]
