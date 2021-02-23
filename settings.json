@@ -291,5 +291,6 @@
     "jupyter.notebookFileRoot": "{$workspaceDir}",
     "jupyter.magicCommandsAsComments": true,
     "jupyter.sendSelectionToInteractiveWindow": false,
+    "files.eol": "\n",
     
 }
