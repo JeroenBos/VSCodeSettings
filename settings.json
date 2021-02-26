@@ -292,4 +292,6 @@
 	"jupyter.magicCommandsAsComments": true,
 	"jupyter.sendSelectionToInteractiveWindow": false,
 	"files.eol": "\n",
+	"git.detectSubmodules": false,
+	"git.autoRepositoryDetection": false,
 }
