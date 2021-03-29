@@ -101,6 +101,7 @@
 		"-s",
 		"./tests",
 	],
+	"python.terminal.activateEnvInCurrentTerminal": true,
 	"python.showStartPage": false,
 	"editor.autoClosingQuotes": "never",
 	"workbench.colorCustomizations": {
