@@ -270,6 +270,13 @@
 				"editor.action.formatDocument",
 			]
 		},
+		{
+			"command": "workbench.action.terminal.focus.multi",
+			"sequence": [
+				"workbench.action.terminal.focus",
+				"workbench.action.terminal.scrollToBottom",
+			]
+		},
 	],
 	"search.exclude": {
 		"**/logs/**": true,
