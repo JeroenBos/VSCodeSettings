@@ -82,7 +82,7 @@
 		"**/Python-3.8/Lib/**",
 		"**/lib/python3.8/**",
 		"**/.mypy_cache/**",
-		"**.vs/**",
+		"**/.vs/**",
 	],
 	"python.linting.pylintArgs": [
 		"--disable-all",
