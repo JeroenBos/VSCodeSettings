@@ -70,6 +70,7 @@
 	"python.envFile": "${workspaceFolder}/.vscode/.env",
 	"python.linting.maxNumberOfProblems": 500,
 	"python.linting.flake8Enabled": true,
+	"python.linting.flake8Args": ["--ignore=C0326"], // C0326 is whitespace
 	"python.linting.pylintEnabled": false,
 	"python.linting.ignorePatterns": [
 		"**/.vscode/**",
