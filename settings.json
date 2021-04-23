@@ -56,7 +56,7 @@
 		"**/logs/**": true,
 		"**/__init__.py": true,
 		"**/~git/**": true,
-		"venv": true,
+		"**venv/**": true,
 		"**/obj/**": true,
 		"**/bin/**": true,
 		"wwwroot/js": true,
