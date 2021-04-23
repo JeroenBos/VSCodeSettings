@@ -84,7 +84,6 @@
 		"**/.mypy_cache/**",
 		"**.vs/**",
 	],
-	"python.jediEnabled": false, // with true F12 seems to work more often. but importing alt+enter with true doesn't seem to work
 	"python.linting.pylintArgs": [
 		"--disable-all",
 		"--max-line-length=120",
