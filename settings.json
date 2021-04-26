@@ -29,6 +29,9 @@
 	"update.enableWindowsBackgroundUpdates": false,
 	"update.mode": "none",
 	"workbench.list.automaticKeyboardNavigation": false,
+	"workbench.editor.decorations.badges": false,
+	"workbench.editor.limit.enabled": true,
+	"workbench.editor.tabSizing": "shrink",
 	"files.watcherExclude": {
 		"**/.git/objects/**": true,
 		"**/.git/subtree-cache/**": true,
