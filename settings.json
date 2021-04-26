@@ -310,6 +310,12 @@
 	"jupyter.notebookFileRoot": "{$workspaceDir}",
 	"jupyter.magicCommandsAsComments": true,
 	"jupyter.sendSelectionToInteractiveWindow": false,
+	"workbench.editorAssociations": [
+		{
+			"viewType": "jupyter.notebook.ipynb",
+			"filenamePattern": "*.ipynb"
+		}
+	],
 	"files.eol": "\n",
 	"git.detectSubmodules": false,
 	"git.autoRepositoryDetection": false,
