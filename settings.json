@@ -33,9 +33,9 @@
 	"workbench.editor.limit.enabled": true,
 	"workbench.editor.tabSizing": "shrink",
 	"files.watcherExclude": {
-		"**/.git/objects/**": true,
-		"**/.git/subtree-cache/**": true,
-		"**/.git/CI/**": true,
+		// "**/.git/objects/**": true,
+		// "**/.git/subtree-cache/**": true,
+		// "**/.git/CI/**": true,
 		"**/node_modules/**": true,
 		"**/__pycache__/**": true,
 		"**/.idea/**": true,
@@ -49,7 +49,6 @@
 	"files.exclude": {
 		"**/__pycache__": true,
 		"**/.DS_Store": true,
-		"**/.git": true,
 		"**/.hg": true,
 		"**/.pytest_cache": true,
 		"**/.svn": true,
