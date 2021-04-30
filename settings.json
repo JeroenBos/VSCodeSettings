@@ -115,6 +115,8 @@
 	"python.showStartPage": false,
 	"editor.autoClosingQuotes": "never",
 	"workbench.colorCustomizations": {
+		"tab.activeBorder": "#d8d8e9",
+		"tab.activeBackground": "#bebed150",
 		"editor.selectionHighlightBackground": "#b6eca173",
 		"editor.hoverHighlightBackground": "#e2f3dc50",
 		// "editor.symbolHighlightBackground": "#ffffff",
