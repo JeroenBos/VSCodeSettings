@@ -864,5 +864,15 @@
         "key": "ctrl+shift+c",
         "command": "-workbench.action.terminal.copySelection",
         "when": "terminalFocus && terminalProcessSupported && terminalTextSelected && terminalTextSelected"
+    },
+    {
+        "key": "f9",
+        "command": "-sortLines.sortLines",
+        "when": "editorTextFocus"
+    },
+    {
+        "key": "ctrl+f9",
+        "command": "sortLines.sortLinesCaseInsensitive",
+        "when": "editorTextFocus"
     }
 ]
