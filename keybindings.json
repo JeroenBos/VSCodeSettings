@@ -505,10 +505,6 @@
         "command": "-editor.action.toggleWordWrap"
     },
     {
-        "key": "ctrl+q",
-        "command": "workbench.action.showAllSymbols"
-    },
-    {
         "key": "ctrl+t",
         "command": "-workbench.action.showAllSymbols"
     },
@@ -898,5 +894,26 @@
         "key": "ctrl+shift+enter",
         "command": "-editor.action.insertLineBefore",
         "when": "editorTextFocus && !editorReadonly"
+    },
+    {
+        "key": "ctrl+shift+s",
+        "command": "-workbench.action.files.saveAs"
+    },
+    {
+        "key": "ctrl+;",
+        "command": "workbench.action.quickOpenView"
+    },
+    {
+        "key": "ctrl+q",
+        "command": "-workbench.action.quickOpenView"
+    },
+    {
+        "key": "ctrl+q",
+        "command": "-workbench.action.quickOpenNavigateNextInViewPicker",
+        "when": "inQuickOpen && inViewsPicker"
+    },
+    {
+        "key": "ctrl+k ctrl+q",
+        "command": "-workbench.action.navigateToLastEditLocation"
     }
 ]
