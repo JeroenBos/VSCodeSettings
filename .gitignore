@@ -1,5 +1,7 @@
 # Ignore everything 
-**/**
+*
+
+!*/
 
 # Except: 
 !.gitignore
@@ -8,3 +10,7 @@
 !ml-setup/**
 !githelpers/**
 !Python_helpers/**
+!./githelpers/hooks.sh
+
+
+**/__pycache__/
