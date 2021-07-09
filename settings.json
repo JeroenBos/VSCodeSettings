@@ -1,5 +1,6 @@
 {
 	"window.zoomLevel": 1,
+	"terminal.integrated.tabs.enabled": false,
 	"explorer.openEditors.visible": 0,
 	"git.enableSmartCommit": true,
 	"html.format.wrapAttributes": "force-aligned",
